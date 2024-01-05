@@ -1,5 +1,5 @@
-1	Overview
-1.1	Description of Project
+## 1	Overview
+### 1.1	Description of Project
 This is a prediction problem  project for Walmart (A Top Retail Group) Sales dataset from Kaggle for the unit sales forecasting. Advanced and comprehensive analytics skills, including Exploratory Data Analysis and Machine Learning Data Prediction Analysis techniques will be used in this case for generating data-driven business insights.
 1.2	Business Context
 In the dynamic landscape of the retail industry, the ability to predict sales accurately is paramount for sustaining and enhancing business operations. For a retail giant like Walmart, whose vast operations span a multitude of products, locations, and customer segments, the challenge of forecasting sales becomes even more intricate.
