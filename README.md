@@ -50,4 +50,20 @@ Based on the structure of data we see the data would be of below format:
 
 <img width="660" alt="Screenshot 2024-01-04 at 22 49 07" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/56702eff-a1f8-4fbe-ad85-ceb02ba3dde6">
 
+
+
+
+
+3.3.1. Price feature\
+We are doing feature engineering here to get price related data, we have week wise data of price (we have price features for test weeks as well).
+We are using expanding max price , minimum price , standard deviation , mean, so that there is no data   leakage from future to past, and ,model can solely use the past data using expanding method (since the data is already sorted time wise we are not sorting again , saves in computation time).
+
+
+3.3.2. Calendar features\
+we see prices of some items starting for a particular week, which might indicate that would be release week for the product so we can use data in base data frame after that point (as since earlier data was in long format it would have data for all items through all days)
+This reduces the size of the data and will have features of when the product was released (capturing any trends if items get sold when we are predicting for volumes closer to release dates). Then we do label encoding of the categorical features so that they can be used for regression algorithms
+
+
+
+
  
