@@ -45,7 +45,7 @@ Based on the structure of data we see the data would be of below format:
 <img width="685" alt="Screenshot 2024-01-04 at 20 00 36" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/d5acb20b-a021-4245-8f3d-27e581c4b1a9">
 
 
-## 3. Modeling 
+## 3. Methodology 
 
 
 <img width="660" alt="Screenshot 2024-01-04 at 22 49 07" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/56702eff-a1f8-4fbe-ad85-ceb02ba3dde6">
