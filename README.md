@@ -10,7 +10,7 @@ Challenges and Risks:
 Walmart confronts the formidable task of maximizing decision-making efficiency amid a sea of data. The stakes are high, as inaccurate predictions can lead to substantial losses. Traditional prediction methods, once reliable, now struggle to cope with the complexities of modern retail dynamics. To avoid costly mistakes and enhance forecasting accuracy, there is a pressing need for the integration of cutting-edge data science techniques.
 Business Imperatives:
 Precise sales predictions stand as the linchpin in Walmart's strategy to navigate both realized and potential revenue opportunities. Efficient inventory management, customer satisfaction, strategic promotions, and a competitive edge hinge on the ability to foresee market trends accurately.
-Benefits of Sales Prediction:
+Benefits of Sales Prediction:\
 (1)	Efficient Inventory Management: Anticipate demand trends, reducing stockouts and overstocks.\
 (2)	Customer Satisfaction: Ensure product availability, meeting customer expectations.\
 (3)	Smart Promotions: Strategically plan promotions based on predictive insights.\
