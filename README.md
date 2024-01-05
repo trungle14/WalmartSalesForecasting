@@ -11,13 +11,13 @@ Walmart confronts the formidable task of maximizing decision-making efficiency a
 Business Imperatives:
 Precise sales predictions stand as the linchpin in Walmart's strategy to navigate both realized and potential revenue opportunities. Efficient inventory management, customer satisfaction, strategic promotions, and a competitive edge hinge on the ability to foresee market trends accurately.
 Benefits of Sales Prediction:
-(1)	Efficient Inventory Management: Anticipate demand trends, reducing stockouts and overstocks.
-(2)	Customer Satisfaction: Ensure product availability, meeting customer expectations.
-(3)	Smart Promotions: Strategically plan promotions based on predictive insights.
-(4)	Competitive Edge: Stay ahead by responding swiftly to market shifts.
-(5)	Optimized Supply Chain: Streamline operations for cost-effective supply chain management.
-(6)	Support for Strategic Decisions: Informed decision-making for sustained growth.
-(7)	Reduce Financial Risks: Improve budget management efficiency through accurate sales forecasts.
+(1)	Efficient Inventory Management: Anticipate demand trends, reducing stockouts and overstocks.\
+(2)	Customer Satisfaction: Ensure product availability, meeting customer expectations.\
+(3)	Smart Promotions: Strategically plan promotions based on predictive insights.\
+(4)	Competitive Edge: Stay ahead by responding swiftly to market shifts.\
+(5)	Optimized Supply Chain: Streamline operations for cost-effective supply chain management.\
+(6)	Support for Strategic Decisions: Informed decision-making for sustained growth.\
+(7)	Reduce Financial Risks: Improve budget management efficiency through accurate sales forecasts.\
 (8)	Raise Shareholder Confidence: Provide stakeholders with reliable projections, enhancing trust.
 
 **Situation:**
