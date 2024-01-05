@@ -47,8 +47,5 @@ Based on the structure of data we see the data would be of below format:
 
 
 
-<img width="488" alt="image" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/4cae414f-43a4-466a-b38e-c6662a46d335">
-
-
 
  
