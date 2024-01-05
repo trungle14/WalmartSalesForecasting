@@ -17,6 +17,7 @@ Benefits of Sales Prediction:\
 (4)	Competitive Edge: Stay ahead by responding swiftly to market shifts.\
 (5)	Optimized Supply Chain: Streamline operations for cost-effective supply chain management.\
 (6)	Support for Strategic Decisions: Informed decision-making for sustained growth.\
+
 (7)	Reduce Financial Risks: Improve budget management efficiency through accurate sales forecasts.\
 (8)	Raise Shareholder Confidence: Provide stakeholders with reliable projections, enhancing trust.
 
@@ -31,6 +32,8 @@ This strategic integration of data science not only addresses current challenges
 
 ## 2. Data Description & Exploratory Data Analysis
 
+<img width="670" alt="Screenshot 2024-01-04 at 19 59 54" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/ca4cde95-c4f4-4399-8041-071ab7ac8683">
+
 This table shows the overview of the Input Data:
 Raw Data	Description	# Feature	# Record	Data Size
 calendar.csv	Workday & Special event day (e.g. SuperBowl)	14	1.9 K	103 kB 
@@ -38,5 +41,14 @@ sell_prices.csv	Price of the products sold per store and date	4	6.84 M	203.4 MB
 sales_train_validation.csv	historical daily unit sales data per product and store [d_1 - d_1913]	1019	30.5 K	120 MB
 sales_train_evaluation.csv	sales [d_1 - d_1941]	1047	30.5 K	121.7 MB
 Based on the structure of data we see the data would be of below format:
+
+<img width="685" alt="Screenshot 2024-01-04 at 20 00 36" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/d5acb20b-a021-4245-8f3d-27e581c4b1a9">
+
+
+
+
+<img width="488" alt="image" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/4cae414f-43a4-466a-b38e-c6662a46d335">
+
+
 
  
