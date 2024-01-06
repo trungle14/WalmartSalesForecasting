@@ -64,6 +64,14 @@ we see prices of some items starting for a particular week, which might indicate
 This reduces the size of the data and will have features of when the product was released (capturing any trends if items get sold when we are predicting for volumes closer to release dates). Then we do label encoding of the categorical features so that they can be used for regression algorithms
 
 
+**3.3.3. Lag and rolling lags features**\
+Another important feature we observed in winning solutions is they used lags data and roll data in feature engineering. This gives how trends data could be captured using a regression algorithm , though we are not specifically using time series data.
+For this we have considered rolling sum of the number of times, 0 units of product were sold, 7, 14, 30, 60, 180 days of roll (week, 2 weeks, approx month, 2 months approx, approx half year), with this we will be able to capture trend details.
+As next important features we have chosen lag features (these will capture sales with a lag of that many days we have in feature.
+
+
+
+
 
 
  
