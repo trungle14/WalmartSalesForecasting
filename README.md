@@ -93,7 +93,9 @@ b.  Model training
 
 4.2. Extreme Gradient Boosting - XGBOOST 
 a. Hyperparameter setting 
-![image](https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/4d889ce6-e1ea-46cb-969c-d50aecb83968)
+
+<img width="489" alt="image" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/7ac7cde0-ae06-44ba-92c2-3c42765a6dac">
+
 
 
 
