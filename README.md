@@ -1,4 +1,4 @@
-## 1	Overview
+ ## 1	Overview
 ### 1.1	Description of Project
 
 This is a prediction problem  project for Walmart (A Top Retail Group) Sales dataset from Kaggle for the unit sales forecasting. Advanced and comprehensive analytics skills, including Exploratory Data Analysis and Machine Learning Data Prediction Analysis techniques will be used in this case for generating data-driven business insights.
@@ -68,6 +68,11 @@ This reduces the size of the data and will have features of when the product was
 Another important feature we observed in winning solutions is they used lags data and roll data in feature engineering. This gives how trends data could be captured using a regression algorithm , though we are not specifically using time series data.
 For this we have considered rolling sum of the number of times, 0 units of product were sold, 7, 14, 30, 60, 180 days of roll (week, 2 weeks, approx month, 2 months approx, approx half year), with this we will be able to capture trend details.
 As next important features we have chosen lag features (these will capture sales with a lag of that many days we have in feature.
+
+
+**3.3.4. Categories - Item, Store, Department, State Level Features**\
+We then use category wise sales data, item wise sales data, department wise sales data (across all stores), then also use store and category wise sales data, store and item wise sales data, store and department wise sales data. This gives cross sectional features that our model could pick if there is any trend.
+
 
 
 
