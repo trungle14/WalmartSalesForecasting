@@ -98,8 +98,7 @@ Then we run a prediction model where we first loop over store and department to 
 
 | Models | Hyperparameter | Kaggle Score |
 |----------|----------|----------|
-| LightGBM    | lgb_params = {
-    'boosting_type': 'gbdt',
+| LightGBM    | lgb_params = {'boosting_type': 'gbdt',
     'objective': 'tweedie',
     'tweedie_variance_power': 1.1,
     'metric': 'rmse',
