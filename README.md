@@ -96,6 +96,13 @@ Then we run a prediction model where we first loop over store and department to 
 
 
 
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1    | Data     | Data     |
+| Row 2    | Data     | Data     |
+
+
+
 
 
 
