@@ -96,30 +96,6 @@ Then we run a prediction model where we first loop over store and department to 
 
 
 
-| Models | Hyperparameter | Kaggle Score |
-|----------|----------|----------|
-| LightGBM | lgb_params = {'boosting_type': 'gbdt',
-'objective': 'tweedie',\
-    'tweedie_variance_power': 1.1,\
-    'metric': 'rmse',\
-    'subsample': 0.5,
-    'subsample_freq': 1,
-    'min_child_weight': 1,
-    'learning_rate': 0.03,
-    'num_leaves': 2 ** 11 - 1,
-    'min_data_in_leaf': 2 ** 12 - 1,
-    'feature_fraction': 0.5,
-    'max_bin': 100,
-    'n_estimators': 1400,
-    'boost_from_average': False,
-    'verbosity': -1,
-    #'device': 'auto'
-}
-lgbm = LGBMRegressor(**lgb_params)
-callbacks = [early_stopping(stopping_rounds=50, first_metric_only=False)]
-     | Data     |
-| Row 2    | Data     | Data     |
-
 
 
 
