@@ -123,6 +123,8 @@ lgb_params = {
     'boost_from_average': False,
     'verbosity': -1
 }
+lgbm = LGBMRegressor(**lgb_params)
+callbacks = [early_stopping(stopping_rounds=50, first_metric_only=False)]
 ```
 
 
