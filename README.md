@@ -75,8 +75,9 @@ We then use category wise sales data, item wise sales data, department wise sale
 
 
 
-4. Model Training and Prediction 
-4.1. Train and Predict
+**4. Model Training and Prediction**\
+
+**Train and Predict**\
 First we need to model comparison to see which model produces a better kaggle score and use that model , then optimize the step size so as to improve the score further.
 through this process we are basically using the sales data that we have on t- step (for example during model selection here for 1- 14 days prediction step will be 14, and from 14 till 28th day step will be 28 days)
 Then we run a prediction model where we first loop over store and department to train the model (slow) , next over store and category (will be quicker) and take average of both the methods to arrive at final submission.
@@ -84,10 +85,10 @@ Then we run a prediction model where we first loop over store and department to 
 
 
 
-LightGBM
-Extreme Gradient Boosting - XGBOOST 
-Neural network
-Stacked Model of Neural Network, Xg boost, lightGBM:
+**LightGBM**
+**Extreme Gradient Boosting - XGBOOST**
+**Neural network**
+**Stacked Model of Neural Network**, XG boost, lightGBM:
 
 
 
