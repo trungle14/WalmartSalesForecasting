@@ -84,17 +84,14 @@ Then we run a prediction model where we first loop over store and department to 
 
 
 
-4.1.1 LightGBM
-a. Hyperparameter setup 
- 
+LightGBM
+Extreme Gradient Boosting - XGBOOST 
+Neural network
+Stacked Model of Neural Network, Xg boost, lightGBM:
 
-b.  Model training 
 
 
-4.2. Extreme Gradient Boosting - XGBOOST 
-a. Hyperparameter setting 
 
-<img width="489" alt="image" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/7ac7cde0-ae06-44ba-92c2-3c42765a6dac">
 
 
 
