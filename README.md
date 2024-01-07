@@ -85,10 +85,18 @@ Then we run a prediction model where we first loop over store and department to 
 
 
 
-**LightGBM**
-**Extreme Gradient Boosting - XGBOOST**
-**Neural network**
-**Stacked Model of Neural Network**, XG boost, lightGBM:
+**LightGBM**\
+<img width="1080" alt="Screenshot 2024-01-06 at 22 29 14" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/6f93c326-e9eb-41cf-b1db-3ce0eec7ffaf">
+
+**Extreme Gradient Boosting - XGBOOST**\
+<img width="1084" alt="Screenshot 2024-01-06 at 22 30 52" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/19b07cc1-9c98-4cd2-9cd8-46d53e6599f6">
+
+
+**Neural network**\
+<img width="784" alt="Screenshot 2024-01-06 at 22 37 13" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/86d7c335-5570-47e0-98b1-4ec673617643">
+
+
+
 
 
 
