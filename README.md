@@ -98,7 +98,8 @@ Then we run a prediction model where we first loop over store and department to 
 
 | Header 1 | Header 2 | Header 3 |
 |----------|----------|----------|
-| Row 1    | Data     | Data     |
+| Row 1    | <img width="853" alt="Screenshot 2024-01-06 at 22 55 11" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/56761633-bb40-45da-a82b-37b712c95864">
+     | Data     |
 | Row 2    | Data     | Data     |
 
 
