@@ -101,8 +101,9 @@ Then we run a prediction model where we first loop over store and department to 
 
 | Models    | Hyperparameters                           | Kaggle Score |
 |-----------|-------------------------------------------|--------------|
-| LightGBM  | [See Hyperparameters](#lightgbm-parameters)| 0.53         |
-| XGBoost   | [See Hyperparameters](#lightgbm-parameters)| 0.53         |
+| LightGBM  | [See Hyperparameters](#lightgbm-parameters)| 0.5302        |
+| XGBoost   | [See Hyperparameters](#lightgbm-parameters)| 0.5599      |
+| Neural Netwwork| [See Hyperparameters](#lightgbm-parameters)| 0.728 |
 
 ## lightGBM Parameters
 
