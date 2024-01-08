@@ -138,8 +138,8 @@ callbacks = [early_stopping(stopping_rounds=50, first_metric_only=False)]
 
 model = tf.keras.models.Sequential([
 tf.keras.layers.Dense(64, activation='relu', input_shape=(trainX.shape[1],)),
-tf.keras.layers.Dense(1, activation='linear')  # Linear activation for regression
-                                          ])
+tf.keras.layers.Dense(1, activation='linear') ]) # Linear activation for regression
+                                          
 
 # Compile the model
 model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mean_squared_error'])
@@ -155,7 +155,7 @@ yhat = model.predict(testX).flatten()
 preds = grid[(grid['d'] >= pred_start) & (grid['d'] <= pred_end)][['id', 'd']]
 preds['sales'] = yhat
 predictions = pd.concat([predictions, preds], axis=0)
-
+```
 
 
 
