@@ -102,10 +102,10 @@ Then we run a prediction model where we first loop over store and department to 
 | Models    | Hyperparameters                           | Kaggle Score |
 |-----------|-------------------------------------------|--------------|
 | LightGBM  | [See Hyperparameters](#lightgbm-parameters)| 0.5302        |
-| XGBoost   | [See Hyperparameters](#lightgbm-parameters)| 0.5599      |
+| XGBoost   | [See Hyperparameters](#xgboost-parameters)| 0.5599      |
 | Neural Netwwork| [See Hyperparameters](#lightgbm-parameters)| 0.728 |
 
-## lightGBM Parameters
+## LightGBM Parameters
 
 ```python
 lgb_params = {
@@ -125,15 +125,36 @@ lgb_params = {
     'boost_from_average': False,
     'verbosity': -1
 }
-lgbm = LGBMRegressor(**lgb_params)
+Lgbm = LGBMRegressor(**lgb_params)
 callbacks = [early_stopping(stopping_rounds=50, first_metric_only=False)]
 ```
 
 
 
-#lightgbm-parameters)
+## XGBoost Parameters
 
+```python
+ # Train
 
+model = tf.keras.models.Sequential([
+tf.keras.layers.Dense(64, activation='relu', input_shape=(trainX.shape[1],)),
+tf.keras.layers.Dense(1, activation='linear')  # Linear activation for regression
+                                          ])
+
+# Compile the model
+model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mean_squared_error'])
+
+# Display the model summary
+#model.summary()
+# Train the model
+history = model.fit(trainX, trainY, epochs=5, batch_size=32, validation_data=(valX, valY))
+
+# Make predictions on the test set
+yhat = model.predict(testX).flatten()
+
+preds = grid[(grid['d'] >= pred_start) & (grid['d'] <= pred_end)][['id', 'd']]
+preds['sales'] = yhat
+predictions = pd.concat([predictions, preds], axis=0)
 
 
 
