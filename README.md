@@ -101,7 +101,8 @@ Then we run a prediction model where we first loop over store and department to 
 
 | Models    | Hyperparameters                           | Kaggle Score |
 |-----------|-------------------------------------------|--------------|
-| lightGBM  | [See Hyperparameters](#lightgbm-parameters)| 0.53         |
+| LightGBM  | [See Hyperparameters](#lightgbm-parameters)| 0.53         |
+| XGBoost   | [See Hyperparameters](#lightgbm-parameters)| 0.53         |
 
 ## lightGBM Parameters
 
@@ -126,6 +127,10 @@ lgb_params = {
 lgbm = LGBMRegressor(**lgb_params)
 callbacks = [early_stopping(stopping_rounds=50, first_metric_only=False)]
 ```
+
+
+
+#lightgbm-parameters)
 
 
 
