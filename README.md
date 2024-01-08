@@ -159,6 +159,21 @@ predictions = pd.concat([predictions, preds], axis=0)
 
 
 
+xgb_params = {
+    'objective': 'reg:tweedie',  
+    'eval_metric': 'rmse', 
+    'subsample': 0.5,
+    'colsample_bytree': 0.5,
+    'learning_rate': 0.03,
+    'max_depth': 11,  
+    'min_child_weight': 4096,  
+    'n_estimators': 1400,
+    'max_bin': 100,
+    'seed': 42
+}
+
+
+
 
 
 
