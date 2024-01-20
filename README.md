@@ -97,6 +97,7 @@ Then we run a prediction model where we first loop over store and department to 
 
 
 
+## Result - Final Kaggle Score
 
 
 | Models    | Hyperparameters                           | Kaggle Score |
@@ -104,6 +105,11 @@ Then we run a prediction model where we first loop over store and department to 
 | LightGBM  | [See Hyperparameters](#lightgbm-parameters)| 0.5302        |
 | XGBoost   | [See Hyperparameters](#xgboost-parameters)| 0.5599      |
 | Neural Netwwork| [See Hyperparameters](#lightgbm-parameters)| 0.728 |
+
+
+
+<img width="655" alt="Screenshot 2024-01-20 at 13 03 37" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/4870872b-97d6-4bbd-93d4-7039c9770134">
+<img width="777" alt="Screenshot 2024-01-20 at 13 05 17" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/369ad935-bade-482b-9b3e-b8fb09b4cfd1">
 
 ## LightGBM Parameters
 
@@ -176,10 +182,7 @@ xgb_params = {
 
 
 
-## Result - Final Kaggle Score
 
-<img width="655" alt="Screenshot 2024-01-20 at 13 03 37" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/4870872b-97d6-4bbd-93d4-7039c9770134">
-<img width="777" alt="Screenshot 2024-01-20 at 13 05 17" src="https://github.com/trungle14/WalmartSalesForecasting/assets/143222481/369ad935-bade-482b-9b3e-b8fb09b4cfd1">
 
 
  
